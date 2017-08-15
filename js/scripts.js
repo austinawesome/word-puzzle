@@ -12,6 +12,7 @@ $(document).ready(function() {
     }
     if(i===sentence.length-1) {
         $("#results").append("<p>" + sentence2.join('','') + "</p>");
+        document.getElementById('form1').className += 'hidden';
     }
     };
   });
